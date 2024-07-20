@@ -4,7 +4,7 @@ getgenv().Config = {
 
 
 local players = game:GetService("Players")
-local whitelist = {"MyzuuZYX", "ChrisRoblox0897", "TEAM_RIOMARVIN", "fikriukail", "anak_prik29", "Milk_Bee01", "Jeniipertiwi", "IM51g", } 
+local whitelist = {"MyzuuZYX", "ChrisRoblox0897", "TEAM_RIOMARVIN", "fikriukail", "anak_prik29", "Milk_Bee01", "Jeniipertiwi", "IM51g"} 
 if players.LocalPlayer.Name == whitelist[1] or
 players.LocalPlayer.Name == whitelist[2] or
 players.LocalPlayer.Name == whitelist[3] or
