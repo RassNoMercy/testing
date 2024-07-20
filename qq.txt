@@ -4,7 +4,7 @@ getgenv().Config = {
 
 
 local players = game:GetService("Players")
-local whitelist = {"MyzuuZYX", "ChrisRoblox0897", "TEAM_RIOMARVIN", "fikriukail", "anak_prik29", "Milk_Bee01", "Jeniipertiwi", "IM51g", "Itzname_lia2011"} 
+local whitelist = {"MyzuuZYX", "ChrisRoblox0897", "TEAM_RIOMARVIN", "fikriukail", "anak_prik29", "Milk_Bee01", "Jeniipertiwi", "IM51g", "Itzname_lia2011", "Calysta604"} 
 if players.LocalPlayer.Name == whitelist[1] or
 players.LocalPlayer.Name == whitelist[2] or
 players.LocalPlayer.Name == whitelist[3] or
@@ -13,7 +13,8 @@ players.LocalPlayer.Name == whitelist[5] or
 players.LocalPlayer.Name == whitelist[6] or
 players.LocalPlayer.Name == whitelist[7] or
 players.LocalPlayer.Name == whitelist[8] or
-players.LocalPlayer.Name == whitelist[9] then
+players.LocalPlayer.Name == whitelist[9] or
+players.LocalPlayer.Name == whitelist[10] then
 
 local LOAD_TIME = tick()
 local queueonteleport = queue_on_teleport or queueonteleport
